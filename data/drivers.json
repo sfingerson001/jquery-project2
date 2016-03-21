@@ -1,0 +1,527 @@
+{
+
+    "drivers": [
+
+        {
+            "name": "Jamie McMurray",
+            "car": "1",
+            "team": "Chip Ganassi Racing with Felix Sabates",
+            "sponsor": "McDonalds",
+            "make": "Chevy",
+            "image": "mcmurray.jpg",
+            "fantasy": "Evan",
+            "points": [24, 20, 25, 25, 31],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [17, 21, 16, 16, 10]
+        }, {
+            "name": "Brad Keselowski",
+            "car": "2",
+            "team": "Team Penske",
+            "sponsor": "Wurth",
+            "make": "Ford",
+            "image": "keselowski.jpg",
+            "fantasy": "Patrick",
+            "points": [22, 32, 44, 12, 32],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [20, 9, 1, 29, 9]
+        }, {
+            "name": "Austin Dillon",
+            "car": "3",
+            "team": "Richard Childress Racing",
+            "sponsor": "American Ethanol",
+            "make": "Chevy",
+            "image": "adillon.jpg",
+            "fantasy": "Patrick",
+            "points": [33, 30, 37, 32, 17],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [9, 11, 5, 9, 24]
+        }, {
+            "name": "Kevin Harvick",
+            "car": "4",
+            "team": "Stewart-Haas Racing",
+            "sponsor": "Jimmy John's",
+            "make": "Chevy",
+            "image": "harvick.jpg",
+            "fantasy": "Evan",
+            "points": [37, 37, 35, 45, 41],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [4, 6, 7, 1, 2]
+        }, {
+            "name": "Kasey Kahne",
+            "car": "5",
+            "team": "Hendrick Motorsports",
+            "sponsor": "Farmers Insurance",
+            "make": "Chevy",
+            "image": "kahne.jpg",
+            "fantasy": "Stephanie",
+            "points": [28, 18, 31, 19, 13],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [13, 23, 10, 22, 28]
+        }, {
+            "name": "Trevor Bayne",
+            "car": "6",
+            "team": "Roush Fenway Racing",
+            "sponsor": "Advocare",
+            "make": "Ford",
+            "image": "bayne.jpg",
+            "fantasy": "Free",
+            "points": [13, 19, 24, 18, 21],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [28, 22, 17, 23, 20]
+        }, {
+            "name": "Regan Smith",
+            "car": "7",
+            "team": "Tommy Baldwin Racing",
+            "sponsor": "APC Chevy",
+            "make": "Chevy",
+            "image": "smith.jpg",
+            "fantasy": "Free",
+            "points": [33, 7, 17, 13, 18],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [8, 34, 25, 28, 23]
+        }, {
+            "name": "Danica Patrick",
+            "car": "10",
+            "team": "Stewart-Haas Racing",
+            "sponsor": "TaxAct",
+            "make": "Chevy",
+            "image": "patrick.jpg",
+            "fantasy": "Joe",
+            "points": [6, 21, 20, 22, 3],
+            "status": ["Accident", "Running", "Running", "Running", "Accident"],
+            "position": [35, 20, 21, 19, 38]
+        }, {
+            "name": "Denny Hamlin",
+            "car": "11",
+            "team": "Joe Gibbs Racing",
+            "sponsor": "SportsClips",
+            "make": "Toyota",
+            "image": "hamlin.jpg",
+            "fantasy": "Joe",
+            "points": [45, 25, 23, 38, 39],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [1, 16, 19, 3, 3]
+        }, {
+            "name": "Casey Mears",
+            "car": "13",
+            "team": "Germain Racing",
+            "sponsor": "Geico",
+            "make": "Chevy",
+            "image": "mears.jpg",
+            "fantasy": "Free",
+            "points": [9, 27, 18, 6, 24],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [32, 14, 23, 35, 17]
+        }, {
+            "name": "Brian Vickers",
+            "car": "14",
+            "team": "Stewart-Haas Racing",
+            "sponsor": "Janssens Arnie's Army Charitable",
+            "make": "Chevy",
+            "image": "vickers.jpg",
+            "fantasy": "Free",
+            "points": [15, 0, 5, 0, 28],
+            "status": ["Running", "Did Not Race", "Running", "Did Not Race", "Running"],
+            "position": [26, 0, 36, 0, 13]
+        }, {
+            "name": "Ty Dillon",
+            "car": "14",
+            "team": "Stewart-Haas Racing",
+            "sponsor": "Bass Pro Shops Tracker Boats",
+            "make": "Chevy",
+            "image": "tdillon.jpg",
+            "fantasy": "Free",
+            "points": [0, 0, 0, 0, 0],
+            "status": ["Running", "Running", "Did Not Race", "Running", "Did Not Race"],
+            "position": [25, 17, 0, 15, 0]
+        }, {
+            "name": "Tony Stewart",
+            "car": "14",
+            "team": "Stewart-Haas Racing",
+            "sponsor": "Bass Pro Shops/Mobil 1",
+            "make": "Chevy",
+            "image": "stewart.jpg",
+            "fantasy": "Free",
+            "points": [0, 0, 0, 0, 0],
+            "status": ["Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race"],
+            "position": [0, 0, 0, 0, 0]
+        }, {
+            "name": "Clint Bowyer",
+            "car": "15",
+            "team": "HScott Motorsports",
+            "sponsor": "Visine",
+            "make": "Chevy",
+            "image": "bowyer.jpg",
+            "fantasy": "Matt",
+            "points": [8, 6, 19, 10, 23],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [33, 35, 22, 31, 18]
+        }, {
+            "name": "Greg Biffle",
+            "car": "16",
+            "team": "Roush Fenway Racing",
+            "sponsor": "Ford Ecoboost",
+            "make": "Ford",
+            "image": "biffle.jpg",
+            "fantasy": "Evan",
+            "points": [7, 28, 21, 20, 4],
+            "status": ["Running", "Running", "Running", "Running", "Engine"],
+            "position": [34, 13, 20, 21, 37]
+        }, {
+            "name": "Ricky Stenhouse Jr",
+            "car": "17",
+            "team": "Roush Fenway Racing",
+            "sponsor": "Fastenal",
+            "make": "Ford",
+            "image": "stenhouse.jpg",
+            "fantasy": "Free",
+            "points": [19, 31, 29, 4, 36],
+            "status": ["Running", "Running", "Running", "Accident", "Running"],
+            "position": [22, 10, 12, 37, 5]
+        }, {
+            "name": "Kyle Busch",
+            "car": "18",
+            "team": "Joe Gibbs Racing",
+            "sponsor": "M&Ms",
+            "make": "Toyota",
+            "image": "kybusch.jpg",
+            "fantasy": "Jenna",
+            "points": [39, 39, 38, 38, 16],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [3, 3, 4, 4, 25]
+        }, {
+            "name": "Carl Edwards",
+            "car": "19",
+            "team": "Joe Gibbs Racing",
+            "sponsor": "Subway",
+            "make": "Toyota",
+            "image": "edwards.jpg",
+            "fantasy": "Joe",
+            "points": [36, 37, 23, 40, 35],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [5, 5, 18, 2, 7]
+        }, {
+            "name": "Matt Kenseth",
+            "car": "20",
+            "team": "Joe Gibbs Racing",
+            "sponsor": "DeWalt",
+            "make": "Toyota",
+            "image": "kenseth.jpg",
+            "fantasy": "Matt",
+            "points": [28, 23, 5, 34, 23],
+            "status": ["Running", "Running", "Accident", "Running", "Running"],
+            "position": [14, 19, 37, 7, 19]
+        }, {
+            "name": "Ryan Blaney",
+            "car": "21",
+            "team": "Wood Brothers Racing",
+            "sponsor": "Motorcraft",
+            "make": "Ford",
+            "image": "blaney.jpg",
+            "fantasy": "Free",
+            "points": [22, 16, 35, 31, 6],
+            "status": ["Running", "Running", "Running", "Running", "Accident"],
+            "position": [19, 25, 6, 10, 35]
+        }, {
+            "name": "Joey Logano",
+            "car": "22",
+            "team": "Team Penske",
+            "sponsor": "AAA",
+            "make": "Ford",
+            "image": "logano.jpg",
+            "fantasy": "Eric",
+            "points": [35, 29, 40, 23, 38],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [6, 12, 2, 18, 4]
+        }, {
+            "name": "David Ragan",
+            "car": "23",
+            "team": "BK Racing",
+            "sponsor": "Dr Pepper",
+            "make": "Toyota",
+            "image": "ragan.jpg",
+            "fantasy": "Free",
+            "points": [13, 9, 9, 17, 19],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [29, 32, 32, 24, 22]
+        }, {
+            "name": "Chase Elliott",
+            "car": "24",
+            "team": "Hendrick Motorsports",
+            "sponsor": "NAPA",
+            "make": "Ford",
+            "image": "elliott.jpg",
+            "fantasy": "Eric",
+            "points": [5, 33, 3, 33, 36],
+            "status": ["Running", "Running", "Accident", "Running", "Running"],
+            "position": [37, 8, 38, 8, 6]
+        }, {
+            "name": "Robert Richardson",
+            "car": "26",
+            "team": "BK Racing",
+            "sponsor": "Stalk It",
+            "make": "Toyota",
+            "image": "richardson.jpg",
+            "fantasy": "Free",
+            "points": [3, 0, 0, 0, 0],
+            "status": ["Engine", "Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race"],
+            "position": [38, 0, 0, 0, 0]
+        }, {
+            "name": "Paul Menard",
+            "car": "27",
+            "team": "Richard Childress Racing",
+            "sponsor": "Menards",
+            "make": "Chevy",
+            "image": "menard.jpg",
+            "fantasy": "Stephanie",
+            "points": [23, 23, 26, 3, 26],
+            "status": ["Running", "Running", "Running", "Accident", "Running"],
+            "position": [18, 18, 15, 38, 15]
+        }, {
+            "name": "Josh Wise",
+            "car": "30",
+            "team": "The Motorsports Group",
+            "sponsor": "Curtis Key Plumbing",
+            "make": "Chevy",
+            "image": "wise.jpg",
+            "fantasy": "Free",
+            "points": [0, 2, 6, 7, 5],
+            "status": ["Did Not Race", "Running", "Running", "Running", "Running"],
+            "position": [0, 39, 35, 34, 36]
+        }, {
+            "name": "Ryan Newman",
+            "car": "31",
+            "team": "Richard Childress Racing",
+            "sponsor": "Caterpillar",
+            "make": "Chevy",
+            "image": "newman.jpg",
+            "fantasy": "Eric",
+            "points": [31, 17, 28, 2, 27],
+            "status": ["Running", "Running", "Running", "Accident", "Running"],
+            "position": [11, 24, 13, 39, 14]
+        }, {
+            "name": "Jeffrey Earnhardt",
+            "car": "32",
+            "team": "Go Fas Racing",
+            "sponsor": "Can-Am",
+            "make": "Ford",
+            "image": "earnhardt.jpg",
+            "fantasy": "Free",
+            "points": [0, 3, 8, 0, 7],
+            "status": ["Did Not Race", "Running", "Running", "Did Not Race", "Running"],
+            "position": [0, 38, 33, 0, 34]
+        }, {
+            "name": "Bobby Labonte",
+            "car": "32",
+            "team": "Go Green Racing",
+            "sponsor": "Can-Am",
+            "make": "Ford",
+            "image": "labonte.jpg",
+            "fantasy": "Free",
+            "points": [11, 0, 0, 0, 0],
+            "status": ["Running", "Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race"],
+            "position": [31, 0, 0, 0, 0]
+        }, {
+            "name": "Joey Gase",
+            "car": "32",
+            "team": "Go Fas Racing",
+            "sponsor": "Can-Am",
+            "make": "Ford",
+            "image": "gase.jpg",
+            "fantasy": "Free",
+            "points": [0, 0, 0, 0, 0],
+            "status": ["Did Not Race", "Did Not Race", "Did Not Race", "Running", "Did Not Race"],
+            "position": [0, 0, 0, 32, 0]
+        }, {
+            "name": "Chris Buescher",
+            "car": "34",
+            "team": "Front Row Motorsports",
+            "sponsor": "Love's",
+            "make": "Ford",
+            "image": "buescher.jpg",
+            "fantasy": "Jenna",
+            "points": [2, 13, 15, 11, 8],
+            "status": ["Accident", "Running", "Running", "Running", "Running"],
+            "position": [39, 28, 26, 30, 33]
+        }, {
+            "name": "David Gilliland",
+            "car": "35",
+            "team": "Front Row Motorsports",
+            "sponsor": "TBD",
+            "make": "Ford",
+            "image": "gilliland.jpg",
+            "fantasy": "Free",
+            "points": [0, 0, 0, 0, 0],
+            "status": ["Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race"],
+            "position": [0, 0, 0, 0, 0]
+        }, {
+            "name": "Landon Cassill",
+            "car": "38",
+            "team": "Front Row Motorsports",
+            "sponsor": "MDS ",
+            "make": "Ford",
+            "image": "cassill.jpg",
+            "fantasy": "Free",
+            "points": [18, 5, 13, 16, 25],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [23, 36, 28, 25, 16]
+        }, {
+            "name": "Reed Sorenson",
+            "car": "40",
+            "team": "Hillman Smith Motorsports",
+            "sponsor": "CRC Brakleen",
+            "make": "Chevy",
+            "image": "sorenson.jpg",
+            "fantasy": "Free",
+            "points": [0, 0, 0, 0, 0],
+            "status": ["Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race"],
+            "position": [0, 0, 0, 0, 0]
+        }, {
+            "name": "Kurt Busch",
+            "car": "41",
+            "team": "Stewart-Haas Racing",
+            "sponsor": "Haas/Monster",
+            "make": "Chevy",
+            "image": "kubusch.jpg",
+            "fantasy": "Chris",
+            "points": [31, 38, 33, 35, 11],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [10, 4, 9, 6, 30]
+        }, {
+            "name": "Kyle Larson",
+            "car": "42",
+            "team": "Target Chip Ganassi Racing",
+            "sponsor": "Target",
+            "make": "Chevy",
+            "image": "larson.jpg",
+            "fantasy": "Jenna",
+            "points": [34, 15, 7, 29, 2],
+            "status": ["Running", "Running", "Running", "Running", "Accident"],
+            "position": [7, 26, 34, 12, 39]
+        }, {
+            "name": "Aric Almirola",
+            "car": "43",
+            "team": "Richard Petty Motorsports",
+            "sponsor": "Smithfield",
+            "make": "Ford",
+            "image": "almirola.jpg",
+            "fantasy": "Matt",
+            "points": [29, 26, 17, 28, 20],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [12, 15, 24, 13, 21]
+        }, {
+            "name": "Brian Scott",
+            "car": "44",
+            "team": "Richard Petty Motorsports",
+            "sponsor": "Albertsons",
+            "make": "Ford",
+            "image": "scott.jpg",
+            "fantasy": "Free",
+            "points": [18, 10, 14, 14, 29],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [24, 31, 27, 27, 12]
+        }, {
+            "name": "Michael Annett",
+            "car": "46",
+            "team": "HScott Motorsports",
+            "sponsor": "Pilot/Flying J",
+            "make": "Chevy",
+            "image": "annett.jpg",
+            "fantasy": "Free",
+            "points": [15, 11, 11, 8, 12],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [27, 30, 30, 33, 29]
+        }, {
+            "name": "AJ Allmendinger",
+            "car": "47",
+            "team": "JTG Daugherty Racing",
+            "sponsor": "Scott",
+            "make": "Chevy",
+            "image": "allmendinger.jpg",
+            "fantasy": "Chris",
+            "points": [20, 14, 27, 24, 33],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [21, 27, 14, 17, 8]
+        }, {
+            "name": "Jimmie Johnson",
+            "car": "48",
+            "team": "Hendrick Motorsports",
+            "sponsor": "Lowe's",
+            "make": "Chevy",
+            "image": "johnson.jpg",
+            "fantasy": "Chris",
+            "points": [26, 44, 40, 30, 44],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [16, 1, 3, 11, 1]
+        }, {
+            "name": "Martin Truex Jr",
+            "car": "78",
+            "team": "Furniture Row Racing",
+            "sponsor": "Furniture Row",
+            "make": "Toyota",
+            "image": "truex.jpg",
+            "fantasy": "Patrick",
+            "points": [40, 35, 30, 27, 10],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [2, 7, 11, 14, 32]
+        }, {
+            "name": "Matt DiBenedetto",
+            "car": "83",
+            "team": "BK Racing",
+            "sponsor": "Cosmo Motors",
+            "make": "Toyota",
+            "image": "dibenedetto.jpg",
+            "fantasy": "Free",
+            "points": [1, 12, 10, 21, 14],
+            "status": ["Accident", "Running", "Running", "Running", "Running"],
+            "position": [40, 29, 31, 20, 27]
+        }, {
+            "name": "Michael Waltrip",
+            "car": "83",
+            "team": "BK Racing",
+            "sponsor": "Maxwell House",
+            "make": "Toyota",
+            "image": "waltrip.jpg",
+            "fantasy": "Free",
+            "points": [12, 0, 0, 0, 0],
+            "status": ["Running", "Did Not Race", "Did Not Race", "Did Not Race", "Did Not Race"],
+            "position": [30, 0, 0, 0, 0]
+        }, {
+            "name": "Dale Earnhardt Jr",
+            "car": "88",
+            "team": "Hendrick Motorsports",
+            "sponsor": "Nationwide",
+            "make": "Chevy",
+            "image": "junior.jpg",
+            "fantasy": "Stephanie",
+            "points": [6, 39, 33, 37, 30],
+            "status": ["Accident", "Running", "Running", "Running", "Running"],
+            "position": [36, 2, 8, 5, 11]
+        }, {
+            "name": "Michael McDowell",
+            "car": "95",
+            "team": "Circle Sport _ Leavine Family Racing",
+            "sponsor": "WRL General Contractors",
+            "make": "Chevy",
+            "image": "mcdowell.jpg",
+            "fantasy": "Free",
+            "points": [26, 8, 12, 15, 10],
+            "status": ["Running", "Running", "Running", "Running", "Running"],
+            "position": [15, 33, 29, 26, 31]
+        }, {
+            "name": "Cole Whitt",
+            "car": "98",
+            "team": "Premium Motorsports",
+            "sponsor": "Rinnai",
+            "make": "Chevy",
+            "image": "whitt.jpg",
+            "fantasy": "Free",
+            "points": [0, 5, 2, 5, 15],
+            "status": ["Did Not Race", "Running", "Vibration", "Overheating", "Running"],
+            "position": [0, 37, 39, 36, 26]
+        }
+
+]
+
+
+}

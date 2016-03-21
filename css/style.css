@@ -1,0 +1,53 @@
+.sidebar {
+    position: fixed;
+    left: 10;
+    width: 200px;
+}
+.main {
+    left: 210px;
+    width: 80%;
+    position: absolute;
+}
+
+.header{
+     background-image: url("../images/grey2.png"); 
+     background-size: contain;
+}
+
+body {
+    font-family: 'Century Gothic', CenturyGothic, sans-serif;
+    color: white;
+    background-color: black;
+}
+.centered {
+    padding: 5px 5px;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+img.driverImg {
+    height: 200px;
+}
+
+.driverdiv {
+    display: inline-block;
+    padding: 25px 25px;
+}
+
+.heading {
+    font-size: 50px;
+    text-align: center;
+    color: black !important;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    color: black !important;
+
+}
+   
+#table_filter {
+    padding: 10px;
+}
