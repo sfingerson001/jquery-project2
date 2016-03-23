@@ -54,7 +54,7 @@ $(function () {
     })
     
     // returns a count of the # of finishes at or below a cutoff
-    countTop = function ( positions, cutoff ) {
+    function countTop ( positions, cutoff ) {
         var count = 0
         for (p=0; p<positions.length; p++){
           if (positions[p] <= cutoff & positions[p] > 0){
@@ -65,12 +65,27 @@ $(function () {
     };
     
     // returns a cumulative sum
-    sum = function ( points ) {
+    function sum ( points ) {
         var count = 0
         for (p=0; p<points.length; p++){
          count = count + points [p];
         }
         return count;
+    };
+    
+    // returns the count of Did Not Finish (DNF)
+    function calculateDNF (status){
+        var DNFcount = 0;
+        var RaceCount = 0;
+        for (s=0; s<status.length; s++){
+          if (status[s] !== "Running" & status[s] !== "Did Not Race"){
+              DNFcount = DNFcount+1;
+          }
+          if (status[s] !== "Did Not Race"){
+              RaceCount = RaceCount+1;
+          }  
+        }
+        return DNFcount + ' of ' + RaceCount + ' Races';
     };
     
     // builds html for a given team owner
@@ -96,6 +111,7 @@ $(function () {
                         var top5 = countTop(val.position, 5);
                         var top10 = countTop(val.position, 10);
                         var pointsTotal = sum(val.points);
+                        var DNF = calculateDNF(val.status);
                         
                         driversHTML += '<div class="driverdiv centered"><img class= "driverImg" src="images/drivers/' +
                             val.image + '"><h2>' + driver + 
@@ -107,6 +123,7 @@ $(function () {
                             '<p><strong>Points: </strong>' + pointsTotal + '</p>'+
                             '<p><strong>Top 5: </strong>' + top5 + '</p>'+
                             '<p><strong>Top 10: </strong>' + top10 + '</p>'+
+                            '<p><strong>DNF: </strong>' + DNF + '</p>'+
                             '</div>';
                     }
                 });
@@ -117,32 +134,7 @@ $(function () {
 
     };
     
-    //formats json to array for datatables
-    function buildDataForTable(){
-         $.getJSON(drivers_file).done(function (data) {
-            
-            var driversArray= new Array;
-            var drivers = data.drivers;
-
-             $.each(drivers, function (index, val) {
-                 
-                   
-                        var driver = val.name;
-                        var wins = countTop(val.position, 1);
-                        var top5 = countTop(val.position, 5);
-                        var top10 = countTop(val.position, 10);
-                        var pointsTotal = sum(val.points);
-                        
-                  thisRow = [driver, val.car, val.make, val.team, val.fantasy, wins, top5, top10, pointsTotal];     
-                 
-                 driversArray.push(thisRow);
-                 
-                });
-           return driversArray; 
-        });
-    };
-    
-    // adds table to dom
+    // formats json to array for datatables and adds table to dom
     function displayTable (){
 
           var tableHTML='<h1 class = "centered">All Driver Statistics</h1>'+
@@ -162,8 +154,9 @@ $(function () {
                         var top5 = countTop(val.position, 5);
                         var top10 = countTop(val.position, 10);
                         var pointsTotal = sum(val.points);
+                        var DNF = calculateDNF(val.status);
                         
-                  thisRow = [driver, val.car, val.make, val.team, val.fantasy, wins, top5, top10, pointsTotal];     
+                  thisRow = [driver, val.car, val.make, val.team, val.fantasy, wins, top5, top10, pointsTotal, DNF];     
                  
                  driversArray.push(thisRow);
                  
@@ -181,7 +174,8 @@ $(function () {
                         { title: "Wins" },
                         { title: "Top 5" },
                         { title: "Top 10" },
-                        { title: "Points" }
+                        { title: "Points" },
+                        { title: "DNF"}
                     ]
             } );
         });
